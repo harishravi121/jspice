@@ -52,9 +52,9 @@ public class JSpice {
   private static boolean isFromCommandline = false;
   private static String outFormat = "";
   private static String fileName = "";
-
+  
   public static void main(String[] args) throws IOException, ConfigurationException {
-
+    system.out.println('Harish')
     if (args.length == 0) {
       System.out.println("Proper Usage is: java -jar jspice <filename>");
       System.exit(0);
